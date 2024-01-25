@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="form-container">
+    <form>
+        Name : <input type="text" class="name">
+        Father's Name: <input type="text"class="name">
+        Mother's Name: <input type="text" class="name">
+        Phone No: <input type="number"class="name"> 
+        Address: <input type="text"class="name">  
+       Email: <input type="email" class="name">
+       Date of Birth: <input type="date" class="name">
+      
+       <div>
+       Gender: Male<input type="radio" class="gender">
+             Female <input type="radio" class="gender">
+             Others <input type="radio" class="gender">
+            </div>
+       
+        <div>
+            Blood Group: <select name="drop-down">
+                <option value ="A" >A</option>
+                <option value ="A+" >A+</option>
+                <option value ="B">B</option>
+                <option value ="B+">B+</option>
+                <option value ="O">O</option>
+            </select>
+        </div>
+       <div>
+            Department: CSE:<input type="radio" class="depart">
+                        EEE:<input type="radio" class="depart">
+                        BBA:<input type="radio"class="depart">
+        </div>
+        <div>
+            Courses: Java <input type="checkbox">
+            C++ <input type="checkbox">
+            Python:<input type="checkbox">
+            JavaScript:<input type="checkbox">
+        </div>
+        <div>
+            Photo: <input type="file">
+        </div>
+       <div>
+        <input type="submit" value="Submit" class="button">
+        <input type="reset" value="Reset" class="button">
+       </div>
+    </form>
+</div>
+    
+</body>
+</html>
